@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :rumbl, Rumbl.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "elixir_user",
+  password: "elixir_user",
   hostname: "localhost",
-  database: "rumbl_dev1",
+  database: "rumbl_db",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
